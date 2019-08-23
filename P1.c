@@ -9,7 +9,7 @@ int main()
 		printf("enter the element");
 		scanf("%d",&a[i]);
 	}
-	printf("enter the k");
+	printf("enter the kth number:");
 	scanf("%d",&k);
 	for(i=0;i<k;i++)
 	{
@@ -28,7 +28,19 @@ int main()
 	printf("the smallest elemt is: %d",a[k-1]);
 }
 	
-	
+Output:
+enter the number of elemnts:5
 
+enter the element3
 
+enter the element35
 
+enter the element6
+
+enter the element4
+
+enter the element1
+
+enter the kth number :2
+
+the smallest elemt is: 3
