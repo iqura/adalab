@@ -74,3 +74,18 @@ int main()
 
 }
 
+Output:-
+
+Enter number of elements:5
+Enter 5 integers:78
+3
+89
+2
+23
+Sorted list in ascending order:
+2
+3
+23
+78
+89
+
