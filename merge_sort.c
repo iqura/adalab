@@ -46,16 +46,35 @@ void MergeSort(int a[], int n)
 main()
 {
     int i, n, a[10];
-    printf("Enter the number of elements :: ");
+    printf("Enter the number of elements : ");
     scanf("%d",&n);
-    printf("\nEnter the elements :: ");
+    printf("\nEnter the elements :");
     for(i = 0; i < n; i++)
     {
         scanf("\n%d",&a[i]);
     }
     MergeSort(a,n);
-    printf("\nThe sorted elements are ::  ");
+    printf("\nThe sorted elements are :");
     for(i = 0; i < n; i++)
         printf("\n%d  ",a[i]);
     printf("\n");
 }
+
+Output:-
+Enter the number of elements :7
+Enter the elements :
+45
+6
+3
+76
+32
+12
+1
+The sorted elements are :
+1  
+3  
+6  
+12  
+32  
+45  
+76  
