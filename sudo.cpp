@@ -81,6 +81,6 @@ int main()
 
     }
     else
-        cout<<"No solution exists";
+        cout<<"\nNo solution exists\n";
     return 0;
 }
